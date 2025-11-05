@@ -52,10 +52,15 @@ All technical details are documented in the `/vulnerabilities/` folder.
 
 | **Category** | **Example Vulnerability** | **Evidence Screenshot** |
 |---------------|----------------------------|--------------------------|
-| SQL Injection | Admin Login Bypass | ![SQLi](assets/screenshots/exploitation/sql_injection_login.png) |
+| Injection Attacks | Admin Login Bypass | ![SQLi](assets/screenshots/exploitation/sql_injection_login.png) |
 | Broken Authentication | Password Reset Manipulation | ![Auth](assets/screenshots/exploitation/broken_auth_password_reset.png) |
 | Broken Access Control | Direct Admin Panel Access | ![Access](assets/screenshots/exploitation/access_control_admin_panel.png) |
-| File Upload Bypass | Null Byte File Type Evasion | ![Upload](assets/screenshots/exploitation/nullbyte_upload_bypass.png) |
+| Sensitive Data Exposure | Forgotten Developer Backup | ![Data](assets/screenshots/exploitation/forgotten_dev_backup.png) |
+| Security Misconfiguration | Null Byte File Type Evasion | ![Upload](assets/screenshots/exploitation/nullbyte_upload_bypass.png) |
+| Cryptographic Failures | MD5 Password Cracking | ![Crypto](assets/screenshots/exploitation/md5_password_crack.png) |
+| Broken Anti-Automation | Hidden Language Access | ![Automation](assets/screenshots/exploitation/extra_language_hidden.png) |
+| Vulnerable Components | Legacy API Access | ![Legacy](assets/screenshots/exploitation/deprecated_interface.png) |
+| Information Disclosure | YouTube OSINT Password Reset | ![OSINT](assets/screenshots/exploitation/bjorn_pet_osint.png) |
 
 ---
 
