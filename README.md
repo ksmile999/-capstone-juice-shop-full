@@ -86,13 +86,13 @@ A total of **six Juice Shop challenges** were successfully identified and solved
 ## 🔐 Vulnerability Overview
 | **Category** | **Example Issues** | **OWASP Top 10 Reference** |
 |---------------|--------------------|------------------------------|
-| Improper Input Validation | Zero-Star Feedback Challenge | A01 – Broken Access Control |
-| SQL Injection | Login Admin / Database Schema Extraction | A03 – Injection |
-| Broken Authentication | Weak Password Policy & Reset Flow | A07 – Identification & Auth Failures |
-| Sensitive Data Exposure | `/ftp` backup file leaks | A02 – Cryptographic Failures |
-| Broken Access Control | Forged Review / Admin Panel Access | A01 – Broken Access Control |
-| File Upload Bypass | Null Byte / MIME Spoofing | A05 – Security Misconfiguration |
-| Weak Cryptography | Deprecated MD5 Usage (Weird Crypto) | A02 – Cryptographic Failures |
+| Improper Input Validation | Zero-Star Feedback Challenge | Broken Access Control |
+| SQL Injection | Login Admin / Database Schema Extraction | Injection |
+| Broken Authentication | Weak Password Policy & Reset Flow | Identification & Auth Failures |
+| Sensitive Data Exposure | `/ftp` backup file leaks | Cryptographic Failures |
+| Broken Access Control | Forged Review / Admin Panel Access | Broken Access Control |
+| File Upload Bypass | Null Byte / MIME Spoofing | Security Misconfiguration |
+| Weak Cryptography | Deprecated MD5 Usage (Weird Crypto) | Cryptographic Failures |
 
 ---
 
